@@ -1,0 +1,9 @@
+version: "3.0"
+
+services:
+  
+  spring:
+    build: .
+    image: spring-boot-demo 
+    ports:
+      - "8080:8080"
